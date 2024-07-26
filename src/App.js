@@ -10,7 +10,7 @@ import Setting from './pages/Setting/Setting';
 const App = () => {
   return (
     <Router>
-      <div>
+      <div className=''>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
