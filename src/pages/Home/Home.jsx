@@ -1,13 +1,11 @@
 import React from "react"
+import SearchInput from "../../components/Home/SearchInput"
 
 const Home = () => {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello, React!
-      </h1>
-      <p className="text-lg font-medium">Hello, Typescript!</p>
-    </>
+    <div className="h-[100vh] bg-slate-500">
+      <SearchInput />
+    </div>
   )
 }
 
