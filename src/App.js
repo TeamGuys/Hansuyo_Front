@@ -1,5 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout'
+
 import Home from './pages/Home/Home';
 import Login from './pages/Login/Login';
 import Reels from './pages/Reels/Reels';
@@ -7,10 +9,11 @@ import Upload from './pages/Upload/Upload';
 import Ranking from './pages/Ranking/Ranking';
 import Setting from './pages/Setting/Setting';
 
+
 const App = () => {
   return (
     <Router>
-      <div className=''>
+      <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
@@ -19,7 +22,7 @@ const App = () => {
           <Route path="/ranking" element={<Ranking />} />
           <Route path="/setting" element={<Setting />} />
         </Routes>
-      </div>
+      </Layout>
     </Router>
   );
 }
