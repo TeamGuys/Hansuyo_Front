@@ -16,6 +16,7 @@ const Upload = () =>{
       alert("파일을 선택하세요.");
       return;
     }
+    console.log(file)
     alert("파일이 성공적으로 업로드되었습니다.");
   };
 
