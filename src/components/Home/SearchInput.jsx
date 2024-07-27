@@ -11,7 +11,7 @@ const SearchInput = () => {
   // };
 
   return (
-    <div className="relative flex items-center justify-center w-full max-w-md mx-auto mt-5">
+    <div className="relative flex items-center justify-center w-full max-w-md h-[42px] p-2">
       <img 
         className="absolute left-3 w-5 h-5 text-gray-400"
         src={SearchIcon} 
