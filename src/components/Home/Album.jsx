@@ -24,6 +24,7 @@ const Album = () => {
           <img src={image} alt={`Test ${index + 1}`} className={`w-full ${aspect2[index] ? 'object-cover h-full ' : 'h-auto'}`} />
         </div>
       ))}
+      
     </div>
   );
 }
