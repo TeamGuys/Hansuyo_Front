@@ -5,6 +5,7 @@ import Test3 from '../../assets/Home/Test2.svg';
 
 const images = [Test1, Test2, Test3,Test1,Test2];
 
+// 5개씩 gride 3 1 순으로 row-span-2
 const aspect = [false,false,true,false,false]
 
 const aspect2 = [true,false,false,false,false]
