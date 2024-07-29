@@ -16,10 +16,10 @@ const Footer = () => {
   ];
 
   return (  
-    <footer className="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto p-1 h-[60px]
+    <footer className="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto p-2 h-[60px] bg-white
                         z-50 flex justify-between"> 
       {icons.map((icon, i) => (
-        <Link to={icon.path} key={i}>
+        <Link to={icon.path} key={i} className="flex items-center">
           <img src={icon.src} alt={`icon-${i}`} className="h-6 w-6" />
         </Link>
       ))}
