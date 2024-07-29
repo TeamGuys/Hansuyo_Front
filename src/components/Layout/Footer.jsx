@@ -12,7 +12,7 @@ const Footer = () => {
     { src: Reels, path: '/reels' },
     { src: Upload, path: '/upload' },
     { src: Ranking, path: '/ranking' },
-    { src: Setting, path: '/settings' },
+    { src: Setting, path: '/setting' },
   ];
 
   return (  
