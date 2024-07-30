@@ -8,23 +8,22 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const icons = [
-    { src: Home, path: '/home' },
+    { src: Home, path: '/' },
     { src: Reels, path: '/reels' },
     { src: Upload, path: '/upload' },
     { src: Ranking, path: '/ranking' },
-    { src: Setting, path: '/settings' },
+    { src: Setting, path: '/setting' },
   ];
 
-  return (
-    <nav className="fixed bottom-0 left-0 w-full text-white shadow-md ">
-        <div className="flex justify-between p-5">
-          {icons.map((icon, i) => (
-            <Link to={icon.path} key={i}>
-              <img src={icon.src} alt={`icon-${i}`} className="h-6 w-6" />
-            </Link>
-          ))}
-      </div>
-    </nav>
+  return (  
+    <footer className="fixed bottom-0 left-0 right-0 max-w-[430px] mx-auto p-2 h-[60px] bg-white
+                        z-50 flex justify-between"> 
+      {icons.map((icon, i) => (
+        <Link to={icon.path} key={i} className="flex items-center">
+          <img src={icon.src} alt={`icon-${i}`} className="h-6 w-6" />
+        </Link>
+      ))}
+    </footer>
   );
 }
 
