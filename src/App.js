@@ -9,6 +9,7 @@ import Upload from './pages/Upload/Upload';
 import Ranking from './pages/Ranking/Ranking';
 import Setting from './pages/Setting/Setting';
 import Footer from './components/Layout/Footer';
+import Board from './pages/Board/Board';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/:id" element={<Board />} />
           <Route path="/login" element={<Login />} />
           <Route path="/reels" element={<Reels />} />
           <Route path="/upload" element={<Upload />} />
