@@ -3,7 +3,7 @@ import ProfileImage from "../Setting/Profile/ProfileImage";
 import Like from "../Board/Like";
 import Message from "../Board/Message";
 
-const VideoContent = () => {
+const VideoContent = ({setOpenCommentModal}) => {
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <div className="flex p-5 justify-between">
@@ -13,8 +13,13 @@ const VideoContent = () => {
         </div>
 
         <div className="items-center">
+          
           <Like />
-          <Message />
+          
+          <Message
+            setOpenCommentModal={setOpenCommentModal}
+            />
+
         </div>
       </div>
     </div>
