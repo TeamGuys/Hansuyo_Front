@@ -1,4 +1,4 @@
-import ProfileImage from "../Setting/Profile/ProfileImage";
+import ProfileImage from "../Common/ProfileImage";
 import Send from "../Comment/Send";
 
 const CommentInput = () => {

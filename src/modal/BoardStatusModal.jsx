@@ -1,5 +1,5 @@
 import PlayCount from "../components/BoardStatusModal/PlayCount";
-import { Border } from "../components/Setting/Border";
+import { Border } from "../components/Common/Border";
 import BoardStatusModalButton from "../components/BoardStatusModal/BoardStatusModalButton"
 import save from "../assets/BoardStatusModal/Save.svg"
 

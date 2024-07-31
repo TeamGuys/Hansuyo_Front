@@ -1,5 +1,5 @@
 import ProfileName from "../Setting/Nav/ProfileName";
-import ProfileImage from "../Setting/Profile/ProfileImage";
+import ProfileImage from "../Common/ProfileImage";
 import Like from "../Board/Like";
 import Message from "../Board/Message";
 

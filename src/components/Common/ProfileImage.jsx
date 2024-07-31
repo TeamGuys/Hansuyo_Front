@@ -1,4 +1,4 @@
-import ProfileImg from '../../../assets/Setting/ProfileImage.svg'
+import ProfileImg from '../../assets/Setting/ProfileImage.svg'
 
 const ProfileImage = ({size}) => {
 

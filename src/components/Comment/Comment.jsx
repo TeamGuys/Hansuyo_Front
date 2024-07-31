@@ -1,6 +1,6 @@
 import React from 'react';
 import ProfileName from "../Setting/Nav/ProfileName";
-import ProfileImage from "../Setting/Profile/ProfileImage";
+import ProfileImage from "../Common/ProfileImage";
 import CommentContent from "../../components/Comment/CommentContent";
 import Like from "../Board/Like";
 import Time from './Time';

@@ -1,4 +1,4 @@
-import ProfileImage from "./ProfileImage";
+import ProfileImage from "../../Common/ProfileImage";
 import Advice from "./Advice";
 import Comment from "./Comment";
 
