@@ -1,6 +1,6 @@
 const ProfileName = () => {
   return(
-    <div className="flex items-center font-bold">
+    <div className="items-center font-bold text-[#000]">
       이름
     </div>
   )
