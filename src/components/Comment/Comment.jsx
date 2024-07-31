@@ -3,6 +3,7 @@ import ProfileName from "../Setting/Nav/ProfileName";
 import ProfileImage from "../Setting/Profile/ProfileImage";
 import CommentContent from "../../components/Comment/CommentContent";
 import Like from "../Board/Like";
+import Time from './Time';
 
 const Comment = () => {
   return (
@@ -14,8 +15,10 @@ const Comment = () => {
         <ProfileName />
         <CommentContent />
       </div>
-      <div className="flex-grow flex justify-end">
-        <Like />
+      <div className="flex-grow flex-col justify-end">
+        <Time small={true} />
+        <Like small={true}/>
+        
       </div>
     </div>
   );
