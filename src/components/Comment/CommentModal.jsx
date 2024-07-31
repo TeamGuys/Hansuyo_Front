@@ -20,12 +20,12 @@ const CommentModal = ({ setOpenCommentModal }) => {
           </button>
         </div>
 
-        <div className="space-y-5 flex-grow overflow-auto">
+        <div className="space-y-5 overflow-auto">
           <Comment />
           <Comment />
         </div>
 
-        <div className="fixed bottom-0 w-full max-w-[430px] mx-auto p-2 bg-orange-400 flex">
+        <div className="fixed bottom-0 w-full max-w-[430px] mx-auto p-2 flex">
           <CommentInput />
         </div>
       </div>
