@@ -1,6 +1,6 @@
 import YouTube from 'react-youtube';
 
-const Video = () => {
+const Video = ({videoId}) => {
   const videoOptions = {
     playerVars: {
       autoplay: 1,

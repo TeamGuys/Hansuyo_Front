@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   const icons = [
     { src: Home, path: '/' },
-    { src: Reels, path: '/reels' },
+    { src: Reels, path: '/reels/0' },
     { src: Upload, path: '/upload' },
     { src: Ranking, path: '/ranking' },
     { src: Setting, path: '/setting' },
