@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileName from "../Setting/Nav/ProfileName";
+import ProfileName from "../Common/ProfileName";
 import ProfileImage from "../Common/ProfileImage";
 import CommentContent from "../../components/Comment/CommentContent";
 import Like from "../Board/Like";

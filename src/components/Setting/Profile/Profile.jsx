@@ -1,6 +1,6 @@
 import ProfileImage from "../../Common/ProfileImage";
 import Advice from "./Advice";
-import Comment from "./Comment";
+import Comment from "../../Common/Comment";
 
 export const Profile = () => {
   return (
