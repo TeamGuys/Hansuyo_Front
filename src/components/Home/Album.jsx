@@ -16,7 +16,7 @@ const Album = () => {
     <div className="grid grid-cols-3 gap-1 mt-1">
       {images.map((image, index) => (
         <div className={` shadow-lg transition-transform transform ${aspect[index] ? 'row-span-2 ' : ''}`} key={index}>
-          <Link to={`./${index}`}>
+          <Link to={`./reels/${index}`}>
 
             <img src={image} alt={`Test ${index + 1}`} className={`w-full ${aspect[index] ? 'object-cover h-full ' : 'h-auto'}`} />
           </Link>

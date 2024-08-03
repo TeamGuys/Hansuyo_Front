@@ -18,7 +18,6 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:videoId" element={<Board />} />
           <Route path="/login" element={<Login />} />
           <Route path="/reels/:videoId" element={<Reels />} />
           <Route path="/upload" element={<Upload />} />
