@@ -2,7 +2,7 @@ import React from 'react';
 import ProfileName from "../Common/ProfileName";
 import ProfileImage from "../Common/ProfileImage";
 import CommentContent from "../../components/Comment/CommentContent";
-import Like from "../Board/Like";
+import Like from "../Reels/Like";
 import Time from './Time';
 
 const Comment = () => {
