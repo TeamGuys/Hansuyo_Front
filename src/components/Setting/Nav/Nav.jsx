@@ -1,6 +1,6 @@
 import Back from "./Back";
 import Graph from "./Graph";
-import ProfileName from "./ProfileName";
+import ProfileName from "../../Common/ProfileName"
 import Star from "./Star";
 
 export const Nav = () => {
