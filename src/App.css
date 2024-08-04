@@ -1,38 +1,251 @@
-.App {
-  text-align: center;
+.LoginBody {
+  position: relative;
+  width: 430px;
+  height: 932px;
+
+  background: linear-gradient(180deg, #2a68e1 0%, #17397b 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.KLoginButton {
+  position: absolute;
+  left: 18.14%;
+  right: 17.21%;
+  top: 44.21%;
+  bottom: 51.39%;
+
+  background: #ffde32;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.NLoginButton {
+  position: absolute;
+  left: 18.14%;
+  right: 17.21%;
+  top: 50%;
+  bottom: 45.6%;
+
+  background: #3fd13d;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.GLoginButton {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 18.14%;
+  right: 17.21%;
+  top: 55.79%;
+  bottom: 39.81%;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.KLogo {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  left: 12%;
+  top: 20%;
+}
+
+.NLogo {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  left: 12%;
+  top: 20%;
+}
+
+.GLogo {
+  position: absolute;
+  width: 23px;
+  height: 22px;
+  left: 12%;
+  top: 20%;
+}
+
+.AllinOne {
+  position: absolute;
+  left: 33.72%;
+  right: 17.21%;
+  top: 40.02%;
+  bottom: 56.87%;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.Login_logo {
+  position: absolute;
+  width: 90.16px;
+  height: 74.72px;
+  left: 40.8%;
+  right: 38.24%;
+  top: 22.36%;
+  bottom: 69.62%;
+
+  background: #ffffff;
+}
+
+.SearchBody {
+  position: relative;
+  width: 430px;
+  height: 932px;
+  background: white; /* 배경을 흰색으로 변경 */
+  padding: 20px; /* 내부 여백 추가 */
+  /* 검색창 눌렀을 때(모든 검색창) */
+}
+
+#search-container {
+  width: 379px;
+  height: 44px;
+  position: relative;
   display: flex;
-  flex-direction: column;
+}
+
+#search-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#search-container img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.LatelySearch {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.AllDelete {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.TypeSearch {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.separator {
+  width: 88%;
+  border: none; /* 기본 테두리 제거 */
+  border-top: 1px solid #ccc; /* 실선 추가 */
+  margin: 10px 0; /* 위아래 여백 */
+}
+
+.SearchMore {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.Clickable {
+  color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.Clickable:hover {
+  color: rgb(0, 0, 0);
+}
+
+.LatelySports {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.recentSearchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.searchBox {
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 5px;
+  display: flex;
   align-items: center;
+
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.removeBtn {
+  margin-left: 5px;
+  cursor: pointer;
+  color: black;
+}
+
+.selected {
+  background: rgba(42, 104, 225, 0.4);
+  border-radius: 10px;
+  border: 2px solid rgba(67, 176, 255, 0.3);
+  padding: 5px 10px; /* 패딩 추가 */
+  box-sizing: border-box;
+}
+.sportsContainer {
+  display: flex-row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sportItem {
+  display: flex-row;
+  justify-content: space-around;
+  padding: 10px;
+  cursor: pointer; /* 커서 포인터로 변경 */
 }
