@@ -20,7 +20,7 @@ const Video = ({videoId}) => {
      <YouTube
           videoId="IE5_RjZomUs"
           opts={videoOptions}
-          className="w-full h-full object-cover"
+          className="w-full min-h-80 h-full object-cover"
           onEnd={(e) => e.target.playVideo()} // 반복 재생 설정
           containerClassName="absolute inset-0 w-full h-full"
         />
