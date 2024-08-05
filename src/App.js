@@ -1,7 +1,16 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout/Layout'
+
+import Home from './pages/Home/Home';
+import Reels from './pages/Reels/Reels';
+import Upload from './pages/Upload/Upload';
+import Ranking from './pages/Ranking/Ranking';
+import Setting from './pages/Setting/Setting';
+import Footer from './components/Layout/Footer';
+import Board from './pages/Reels/Reels';
 import "./App.css";
-import React from "react";
 import Redirection from "./components/Redirection.jsx";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Login from "./pages/LoginPages";
 import Search from "./pages/SearchPages";
@@ -15,10 +24,19 @@ import Setting from "./pages/Setting/Setting";
 const App = () => {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/redirect" element={<Redirection />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/redirect" element={<Redirection />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/reels/:videoId" element={<Reels />} />
+          <Route path="/upload" element={<Upload />} />
+          <Route path="/ranking" element={<Ranking />} />
+          <Route path="/setting" element={<Setting />} />
+        </Routes>
+        <Footer />
+      </Layout>
     </Router>
   );
 };
