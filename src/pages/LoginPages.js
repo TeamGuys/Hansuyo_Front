@@ -8,8 +8,8 @@ import NLogoImage from "../assets/NLogo.png";
 import GLogoImage from "../assets/GLogo.png";
 
 function Login() {
-  const KREST_API_KEY = "백엔드한테 달라하자1";
-  const KREDIRECT_URI = "백엔드한테 달라하자2";
+  const KREST_API_KEY = process.env.REACT_APP_KREST_API_KEY;
+  const KREDIRECT_URI = process.env.REACT_APP_KREDIRECT_URI;
   const Klink = `https://kauth.kakao.com/oauth/authorize?client_id=${KREST_API_KEY}&redirect_uri=${KREDIRECT_URI}&response_type=code`;
 
   const KloginHandler = () => {
@@ -25,9 +25,13 @@ function Login() {
     window.location.href = Nlink;
   };
 
-  const GREST_API_KEY = "백엔드한테 달라하자5";
-  const GREDIRECT_URI = "백엔드한테 달라하자6";
-  const Glink = `https://kauth.kakao.com/oauth/authorize?client_id=${GREST_API_KEY}&redirect_uri=${GREDIRECT_URI}&response_type=code`;
+  const GREST_API_KEY = "백엔드한테 달라고 하자1";
+  const GREDIRECT_URI = "백엔드한테 달라고 하자2";
+  const Glink = `https://accounts.google.com/o/oauth2/v2/auth?
+		client_id=${GREST_API_KEY}
+		&redirect_uri=${GREDIRECT_URI}
+		&response_type=code
+		&scope=email profile`;
 
   const GloginHandler = () => {
     window.location.href = Glink;

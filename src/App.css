@@ -178,7 +178,7 @@
   width: 88%;
   border: none; /* 기본 테두리 제거 */
   border-top: 1px solid #ccc; /* 실선 추가 */
-  margin: 10px 0; /* 위아래 여백 */
+  margin: 10px 0;
 }
 
 .SearchMore {
@@ -235,7 +235,7 @@
   background: rgba(42, 104, 225, 0.4);
   border-radius: 10px;
   border: 2px solid rgba(67, 176, 255, 0.3);
-  padding: 5px 10px; /* 패딩 추가 */
+  padding: 5px 10px;
   box-sizing: border-box;
 }
 .sportsContainer {
@@ -247,5 +247,5 @@
   display: flex-row;
   justify-content: space-around;
   padding: 10px;
-  cursor: pointer; /* 커서 포인터로 변경 */
+  cursor: pointer;
 }
