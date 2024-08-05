@@ -8,29 +8,29 @@ import { useState, useEffect } from "react";
 
 
 const Home = () => {
-  const [videos, setVideos] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  // const [videos, setVideos] = useState([]);
+  // const [loading, setLoading] = useState(false);
+  // const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchVideos = async () => {
-      setLoading(true);
-      try {
-        const videoData = await getVideo();
+  // useEffect(() => {
+  //   const fetchVideos = async () => {
+  //     setLoading(true);
+  //     try {
+  //       const videoData = await getVideo();
         
-        setVideos(videoData); // 비디오 데이터 설정
-      } catch (err) {
-        setError(err); // 오류 설정
-      } finally {
-        setLoading(false);
-      }
-    };
+  //       setVideos(videoData); // 비디오 데이터 설정
+  //     } catch (err) {
+  //       setError(err); // 오류 설정
+  //     } finally {
+  //       setLoading(false);
+  //     }
+  //   };
 
-    fetchVideos();
-  }, []);
+  //   fetchVideos();
+  // }, []);
 
-  if (loading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
+  // if (loading) return <div>Loading...</div>;
+  // if (error) return <div>Error: {error.message}</div>;
 
   return (
     <div className="h-[100vh] p-1 ">

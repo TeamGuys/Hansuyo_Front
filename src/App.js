@@ -1,14 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout'
-
-import Home from './pages/Home/Home';
-import Reels from './pages/Reels/Reels';
-import Upload from './pages/Upload/Upload';
-import Ranking from './pages/Ranking/Ranking';
-import Setting from './pages/Setting/Setting';
 import Footer from './components/Layout/Footer';
-import Board from './pages/Reels/Reels';
+
 import "./App.css";
 import Redirection from "./components/Redirection.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
