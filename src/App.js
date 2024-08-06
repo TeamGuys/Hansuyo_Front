@@ -17,7 +17,7 @@ import Setting from "./pages/Setting/Setting";
 import Edit from './pages/Setting/Edit';
 import My from './pages/Setting/My.jsx';
 import Profile from './pages/Setting/Profile.jsx';
-
+import SubChannel from './pages/Setting/SubChannel.jsx';
 const App = () => {
   return (
     <Router>
@@ -36,7 +36,7 @@ const App = () => {
           <Route path="/setting/edit/profile" element={<Profile />} />
           <Route path="/setting/edit/saveVideo" element={<Edit />} />
           <Route path="/setting/edit/deleteVideo" element={<Edit />} />
-          <Route path="/setting/edit/subChannel" element={<Edit />} />
+          <Route path="/setting/edit/subChannel" element={<SubChannel />} />
 
 
         </Routes>

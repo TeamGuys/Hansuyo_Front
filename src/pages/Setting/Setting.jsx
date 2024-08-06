@@ -16,7 +16,7 @@ const Setting = () =>{
 
       <Border />
       
-      <Subscribe />
+      <Subscribe text={'나의 구독 채널'}/>
       <Border />
       <Collection />
 
