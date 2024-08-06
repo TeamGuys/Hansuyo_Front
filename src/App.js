@@ -14,6 +14,7 @@ import Reels from "./pages/Reels/Reels";
 import Upload from "./pages/Upload/Upload";
 import Ranking from "./pages/Ranking/Ranking";
 import Setting from "./pages/Setting/Setting";
+import Edit from './pages/Setting/Edit';
 
 const App = () => {
   return (
@@ -28,6 +29,8 @@ const App = () => {
           <Route path="/upload" element={<Upload />} />
           <Route path="/ranking" element={<Ranking />} />
           <Route path="/setting" element={<Setting />} />
+          <Route path="/setting/edit" element={<Edit />} />
+
         </Routes>
         <Footer />
       </Layout>

@@ -1,9 +1,10 @@
-import Back from "./Back";
+import Back from "../../Common/Back";
 import Graph from "./Graph";
 import ProfileName from "../../Common/ProfileName"
 import Star from "./Star";
-
-export const Nav = () => {
+import ViewVideo from "./ViewVideo";
+import Edit from "./Edit";
+export const Nav = ({my}) => {
   return (
     <div className="flex justify-between w-full p-4 "> {/* items-center 추가 */}
       
@@ -17,8 +18,14 @@ export const Nav = () => {
       </div>
 
       {/* 우측 */}
-      <div className="flex">
-        <Star />
+      <div className="flex space-x-2">
+      {my ? 
+      <>
+      <ViewVideo />
+      <Edit />
+      </>  :         <Star />}
+
+
       </div>
     </div>
   );

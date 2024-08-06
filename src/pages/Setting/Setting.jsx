@@ -10,7 +10,7 @@ import Board from "../../components/Setting/Board/Board"
 const Setting = () =>{
   return(
     <>
-      <Nav />
+      <Nav my={true} />
       
       <Profile />
 

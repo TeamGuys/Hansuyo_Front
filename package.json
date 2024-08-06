@@ -1,8 +1,9 @@
 {
-  "homepage": "https://username.github.io/Hansuyo_Front",
+  "homepage": "https://teamguys.github.io/Hansuyo_Front",
   "name": "hansuyo",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://hansuyo.social",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
