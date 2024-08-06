@@ -24,6 +24,8 @@ const App = () => {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Hansuyo_Front" element={<Home />} />
+
           <Route path="/login" element={<Login />} />
           <Route path="/redirect" element={<Redirection />} />
           <Route path="/login" element={<Login />} />
