@@ -15,6 +15,8 @@ import Upload from "./pages/Upload/Upload";
 import Ranking from "./pages/Ranking/Ranking";
 import Setting from "./pages/Setting/Setting";
 import Edit from './pages/Setting/Edit';
+import My from './pages/Setting/My.jsx';
+import Profile from './pages/Setting/Profile.jsx';
 
 const App = () => {
   return (
@@ -30,6 +32,12 @@ const App = () => {
           <Route path="/ranking" element={<Ranking />} />
           <Route path="/setting" element={<Setting />} />
           <Route path="/setting/edit" element={<Edit />} />
+          <Route path="/setting/edit/my" element={<My />} />
+          <Route path="/setting/edit/profile" element={<Profile />} />
+          <Route path="/setting/edit/saveVideo" element={<Edit />} />
+          <Route path="/setting/edit/deleteVideo" element={<Edit />} />
+          <Route path="/setting/edit/subChannel" element={<Edit />} />
+
 
         </Routes>
         <Footer />

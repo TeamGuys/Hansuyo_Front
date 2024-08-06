@@ -1,8 +1,9 @@
-const Comment = ({comment}) => {
-  return(
-    <>
+const Comment = ({ comment }) => {
+  return (
+    <div className="items-center font-bold text-[#000]">
+
       {comment}
-    </>
+    </div>
   )
 
 }
