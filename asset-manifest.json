@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Hansuyo_Front/static/css/main.74a73f40.css",
-    "main.js": "/Hansuyo_Front/static/js/main.672d6d01.js",
+    "main.js": "/Hansuyo_Front/static/js/main.e38b2791.js",
     "static/js/845.f68d0287.chunk.js": "/Hansuyo_Front/static/js/845.f68d0287.chunk.js",
     "static/media/Test2.svg": "/Hansuyo_Front/static/media/Test2.e2c3ff64e3e128baf04efe0458b6914e.svg",
     "static/media/Test1.svg": "/Hansuyo_Front/static/media/Test1.de21bbebfd3bac2a03f0de52790da5b0.svg",
@@ -29,11 +29,11 @@
     "static/media/Graph.svg": "/Hansuyo_Front/static/media/Graph.93803f8e680604c499f583c247dfae89.svg",
     "static/media/Back.svg": "/Hansuyo_Front/static/media/Back.5ce5b94bf30ba1f1e658094d4f3a3136.svg",
     "main.74a73f40.css.map": "/Hansuyo_Front/static/css/main.74a73f40.css.map",
-    "main.672d6d01.js.map": "/Hansuyo_Front/static/js/main.672d6d01.js.map",
+    "main.e38b2791.js.map": "/Hansuyo_Front/static/js/main.e38b2791.js.map",
     "845.f68d0287.chunk.js.map": "/Hansuyo_Front/static/js/845.f68d0287.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74a73f40.css",
-    "static/js/main.672d6d01.js"
+    "static/js/main.e38b2791.js"
   ]
 }
